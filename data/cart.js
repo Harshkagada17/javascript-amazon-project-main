@@ -68,7 +68,7 @@ export function addTocart(productId){
       }
     });
   
-    matchingItem.quantity = newNumberInput;
+    matchingItem.quantitay = newNumberInput;
   
     saveToStorage();
   }
